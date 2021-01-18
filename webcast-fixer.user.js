@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Webcast fixer
 // @namespace    http://cern.ch
-// @version      0.2
+// @version      0.3
 // @description  Make the webcam view bigger
 // @author       Alex Iribarren
 // @match        https://webcast.web.cern.ch/*
@@ -18,6 +18,6 @@
     $('div.sixteen.wide.column').attr('style', 'width: 90%!important;');
 
     // New Webcast
-    $('div.ui.container').attr('style', 'width: 95% !important;');
+    $('div.ui.container').attr('style', 'width: 85% !important;');
 
 })();
